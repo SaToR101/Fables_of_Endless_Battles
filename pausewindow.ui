@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PauseWindow</class>
+ <widget class="QDialog" name="PauseWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(D:/CourseWork/realisation/CourseWork/img/SettingBack.png);
+background-repeat: no-repeat;
+background-position: center;
+border: none;
+</string>
+  </property>
+  <widget class="QPushButton" name="BResumePause">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>100</y>
+     <width>454</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BSettingsPause">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>320</y>
+     <width>454</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background: url(D:/CourseWork/realisation/CourseWork/img/BSettings.png);
+border: none;
+}
+QPushButton:hover
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BSettingsHover.png);
+}
+
+QPushButton:pressed 
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BSettingsPressSmall.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BMainMenuPause">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>540</y>
+     <width>454</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background: url(D:/CourseWork/realisation/CourseWork/img/BMenuPause.png);
+border: none;
+}
+QPushButton:hover
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BMenuPauseHover.png);
+}
+
+QPushButton:pressed 
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BMenuPausePressSmall.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BQuitPause">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>760</y>
+     <width>454</width>
+     <height>164</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background: url(D:/CourseWork/realisation/CourseWork/img/BQuit.png);
+border: none;
+}
+
+QPushButton:hover
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BQuitHover.png);
+}
+
+QPushButton:pressed 
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BQuitPressSmall.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

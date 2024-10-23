@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingScreen</class>
+ <widget class="QDialog" name="SettingScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: url(D:/CourseWork/realisation/CourseWork/img/SettingBack.png);
+background-repeat: no-repeat;
+background-position: center;
+border: none;
+</string>
+   </property>
+   <widget class="QPushButton" name="Confirm_Button">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>1000</y>
+      <width>180</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background: url(D:/CourseWork/realisation/CourseWork/img/BConfirm.png);
+border: none;
+}
+
+QPushButton:hover
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BConfirmHover.png);
+}
+
+QPushButton:pressed 
+{
+border: none;
+background: url(D:/CourseWork/realisation/CourseWork/img/BConfirmPress.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>600</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(D:/CourseWork/realisation/CourseWork/img/SettingsLogo.png);</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
