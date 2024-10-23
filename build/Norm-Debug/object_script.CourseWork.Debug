@@ -1,0 +1,10 @@
+debug/gamewindow.o
+debug/main.o
+debug/mainwindow.o
+debug/pausewindow.o
+debug/settingscreen.o
+debug/qrc_resource.o
+debug/moc_gamewindow.o
+debug/moc_mainwindow.o
+debug/moc_pausewindow.o
+debug/moc_settingscreen.o

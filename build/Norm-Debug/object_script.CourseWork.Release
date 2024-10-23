@@ -1,0 +1,10 @@
+release/gamewindow.o
+release/main.o
+release/mainwindow.o
+release/pausewindow.o
+release/settingscreen.o
+release/qrc_resource.o
+release/moc_gamewindow.o
+release/moc_mainwindow.o
+release/moc_pausewindow.o
+release/moc_settingscreen.o
